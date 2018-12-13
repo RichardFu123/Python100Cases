@@ -468,7 +468,7 @@ print(peach)
 a=set(['x','y','z'])
 b=set(['x','y','z'])
 c=set(['x','y','z'])
-c-=set(('x','y'))
+c-=set(('x','z'))
 a-=set('x')
 for i in a:
     for j in b:
